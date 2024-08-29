@@ -92,7 +92,7 @@ def main_save():
         print(f"Error occurred: {e}")
 
 
-def main():
+if __name__ == "__main__":
     minute, second = 58, 30
     print(f"start {get_time()}", flush=True)
     check = isTest()
@@ -111,10 +111,6 @@ def main():
                 print(f"{get_time()}", flush=True)
                 time.sleep(1)
             elif (csecond == second):
-                main()
+                main_save()
     else:
         main_save()
-
-
-if __name__ == "__main__":
-    main()
