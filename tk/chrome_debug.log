@@ -1,0 +1,39 @@
+[6996:13796:0829/095836.128:WARNING:chrome_main_delegate.cc(742)] This is Chrome version 128.0.6613.85 (not a warning)
+[6996:13796:0829/095836.201:INFO:chrome_browser_cloud_management_controller.cc(196)] No machine level policy manager exists.
+[6996:13796:0829/095837.385:INFO:CONSOLE(7)] "The key "max-scale" is not recognized and ignored.", source: https://cmangaog.com/user/game/dashboard (7)
+[6996:13796:0829/095837.738:INFO:CONSOLE(1)] "
+It looks like you're using the development build of the Firebase JS SDK.
+When deploying Firebase apps to production, it is advisable to only import
+the individual SDK components you intend to use.
+
+For the CDN builds, these are available in the following manner
+(replace <PACKAGE> with the name of a component - i.e. auth, database, etc):
+
+https://www.gstatic.com/firebasejs/5.0.0/firebase-<PACKAGE>.js
+", source: https://www.gstatic.com/firebasejs/8.8.1/firebase.js (1)
+[6996:13796:0829/095838.516:INFO:CONSOLE(455)] "Uncaught ReferenceError: token_chat is not defined", source:  (455)
+[6996:13796:0829/095838.780:INFO:CONSOLE(7)] "The key "max-scale" is not recognized and ignored.", source: https://cmangaog.com/user/game/dashboard (7)
+[6996:13796:0829/095838.918:INFO:CONSOLE(1)] "
+It looks like you're using the development build of the Firebase JS SDK.
+When deploying Firebase apps to production, it is advisable to only import
+the individual SDK components you intend to use.
+
+For the CDN builds, these are available in the following manner
+(replace <PACKAGE> with the name of a component - i.e. auth, database, etc):
+
+https://www.gstatic.com/firebasejs/5.0.0/firebase-<PACKAGE>.js
+", source: https://www.gstatic.com/firebasejs/8.8.1/firebase.js (1)
+[6996:13796:0829/100202.542:INFO:CONSOLE(7)] "The key "max-scale" is not recognized and ignored.", source: https://cmangaog.com/user/game/dashboard (7)
+[6996:13796:0829/100202.789:INFO:CONSOLE(1)] "
+It looks like you're using the development build of the Firebase JS SDK.
+When deploying Firebase apps to production, it is advisable to only import
+the individual SDK components you intend to use.
+
+For the CDN builds, these are available in the following manner
+(replace <PACKAGE> with the name of a component - i.e. auth, database, etc):
+
+https://www.gstatic.com/firebasejs/5.0.0/firebase-<PACKAGE>.js
+", source: https://www.gstatic.com/firebasejs/8.8.1/firebase.js (1)
+[3748:12932:0829/100212.944:WARNING:sqlite_persistent_store_backend_base.cc(198)] Failed to post task from FlushAndNotifyInBackground@net\extras\sqlite\sqlite_persistent_store_backend_base.cc:248 to client_task_runner_.
+[3748:12932:0829/100212.944:WARNING:sqlite_persistent_store_backend_base.cc(198)] Failed to post task from FlushAndNotifyInBackground@net\extras\sqlite\sqlite_persistent_store_backend_base.cc:248 to client_task_runner_.
+[6996:13796:0829/100212.977:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
