@@ -1,6 +1,6 @@
 from import_file import *
 
-test = True
+test = False
 
 
 def khoi_tao_chrome():
