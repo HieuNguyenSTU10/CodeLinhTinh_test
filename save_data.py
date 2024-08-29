@@ -1,6 +1,7 @@
 from GetTime import *
 from str_const import isTest
 import time
+from source import *
 
 
 def read_data_from_file(file_path):
@@ -78,7 +79,7 @@ def append_to_excel(file_path, new_data, t_gold, m_gold):
     workbook.save(file_path)
 
 
-def main():
+def main_save():
     main_source()
     try:
         time_save, t_player, t_gold, m_player, m_gold, win_team, win_gold, time_update = read_data_from_file(
@@ -91,26 +92,29 @@ def main():
         print(f"Error occurred: {e}")
 
 
-minute, second = 58, 30
-print(f"start {get_time()}", flush=True)
-check = isTest()
-if (check == True):
-    while True:
-        cminute = int(get_minute())
-        csecond = int(get_second())
-        # if (cminute == minute and csecond == second):
-        #     main()
-        # else:
-        #     time.sleep(1)
+def main():
+    minute, second = 58, 30
+    print(f"start {get_time()}", flush=True)
+    check = isTest()
+    if (check == True):
+        while True:
+            cminute = int(get_minute())
+            csecond = int(get_second())
+            # if (cminute == minute and csecond == second):
+            #     main()
+            # else:
+            #     time.sleep(1)
 
-        if (cminute < minute and csecond < second):
-            time.sleep(60)
-        elif ((cminute == minute and csecond < second) or (cminute < minute and csecond > second)):
-            print(f"{get_time()}", flush=True)
-            time.sleep(1)
-        elif (csecond == second):
-            from source import *
-            main()
-else:
-    from source import *
+            if (cminute < minute and csecond < second):
+                time.sleep(60)
+            elif ((cminute == minute and csecond < second) or (cminute < minute and csecond > second)):
+                print(f"{get_time()}", flush=True)
+                time.sleep(1)
+            elif (csecond == second):
+                main()
+    else:
+        main_save()
+
+
+if __name__ == "__main__":
     main()
