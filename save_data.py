@@ -1,4 +1,5 @@
 from GetTime import *
+from str_const import isTest
 import time
 
 
@@ -91,8 +92,8 @@ def main():
 
 
 minute, second = 58, 30
-check = True
 print(f"start {get_time()}")
+check = isTest()
 if (check == True):
     while True:
         cminute = int(get_minute())

@@ -154,7 +154,7 @@ def run_retry(func, max_retries=10):
 
 
 def main_source():
-    a = True
+    a = isTest()
     login_web()
     time.sleep(5)
     if (checklogin()):
@@ -170,6 +170,5 @@ def main_source():
     save_data()
     driver.quit()  # Đóng trình duyệt khi hoàn tất
     print(f"luu thanh cong {get_time()}")
-
 
 # main_source()

@@ -1,5 +1,7 @@
 from import_file import *
 
+test = True
+
 
 def khoi_tao_chrome():
     chrome_options = Options()
@@ -11,3 +13,8 @@ def khoi_tao_chrome():
     driver = webdriver.Chrome(options=chrome_options)
     # driver.minimize_window()
     return driver
+
+
+def isTest():
+    global test
+    return test
