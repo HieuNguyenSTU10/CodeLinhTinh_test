@@ -10,7 +10,6 @@ from datetime import datetime
 import subprocess
 from GetTime import *
 
-import pandas as pd
 import openpyxl
 from openpyxl.utils.dataframe import dataframe_to_rows
 import os

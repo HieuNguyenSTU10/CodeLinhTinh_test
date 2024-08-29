@@ -13,7 +13,7 @@ def login_web():
     driver = khoi_tao_chrome()
     web = 'https://cmangaog.com/user/game/dashboard'
     driver.get(web)
-
+    print('truy cap thanh cong')
 
 def refresh_web():
     driver.close()
@@ -25,11 +25,11 @@ def click_button(by, xpath):
     div = 0
     while not action:
         try:
-            WebDriverWait(driver, 10).until(
-                EC.element_to_be_clickable((by, xpath)))
+            WebDriverWait(driver, 10).until(EC.element_to_be_clickable((by, xpath)))
             button = driver.find_element(by, xpath)
             # Sử dụng JavaScript để click
             driver.execute_script("arguments[0].click();", button)
+            print('click thanh cong')
             action = True
         except TimeoutException:
             print(f"Timeout while trying to click {xpath}")
@@ -53,6 +53,7 @@ def login():
     search_box = driver.find_element(By.ID, 'login_password')
     search_box.send_keys('nickthu147')
     search_box.send_keys(Keys.RETURN)
+    print('dang nhap thanh cong')
     time.sleep(3)
 
 
@@ -69,48 +70,39 @@ def get_text(by, tstring):
 def get_nguoi_vang():
     result1, result2, result3, result4 = '', '', '', ''
     time.sleep(3)
-    (result1, result2) = (get_text(
-        By.XPATH, "//div[@class='angel top child_module']//div[@class='statics']//p//span[@class='player']"),
-        get_text(
-        By.XPATH, "//div[@class='angel top child_module']//div[@class='statics']//p//span[@class='gold']"))
-    (result3, result4) = (get_text(
-        By.XPATH, "//div[@class='devil top child_module']//div[@class='statics']//p//span[@class='player']"),
-        get_text(
-        By.XPATH, "//div[@class='devil top child_module']//div[@class='statics']//p//span[@class='gold']"))
+    (result1, result2) = (get_text(By.XPATH, "//div[@class='angel top child_module']//div[@class='statics']//p//span[@class='player']"),
+        get_text(By.XPATH, "//div[@class='angel top child_module']//div[@class='statics']//p//span[@class='gold']"))
+    (result3, result4) = (get_text(By.XPATH, "//div[@class='devil top child_module']//div[@class='statics']//p//span[@class='player']"),
+        get_text(By.XPATH, "//div[@class='devil top child_module']//div[@class='statics']//p//span[@class='gold']"))
     (player, gold) = (result1 + result3, result2 + result4)
     return player, gold
 
 
 def ket_qua():
     global win_team, win_gold
-    button = driver.find_element(
-        By.XPATH, '//div[@onclick="load_module(\'content\',\'game/activity/angel_devil\')"]')
+    button = driver.find_element(By.XPATH, '//div[@onclick="load_module(\'content\',\'game/activity/angel_devil\')"]')
     driver.execute_script("arguments[0].click();", button)
 
     time.sleep(3)
-    button1 = driver.find_element(
-        By.XPATH, '//button[@onclick="popup_load(\'game/angel_devil/history\')"]')
+    button1 = driver.find_element(By.XPATH, '//button[@onclick="popup_load(\'game/angel_devil/history\')"]')
     button1.click()
     time.sleep(2)
     # print("click")
-    while get_text(
-            By.XPATH, "//div[@class='history_list']//table[@class='main_table']//tbody//tr[1]//td[1]") not in ('Ma Giới', 'Tiên Giới'):
+    while get_text(By.XPATH, "//div[@class='history_list']//table[@class='main_table']//tbody//tr[1]//td[1]") not in ('Ma Giới', 'Tiên Giới'):
         time.sleep(1)
-    (win_team, win_gold) = (get_text(
-        By.XPATH, "//div[@class='history_list']//table[@class='main_table']//tbody//tr[1]//td[1]"),
-        get_text(
-        By.XPATH, "//div[@class='history_list']//table[@class='main_table']//tbody//tr[1]//td[3]//span"))
+    (win_team, win_gold) = (get_text(By.XPATH, "//div[@class='history_list']//table[@class='main_table']//tbody//tr[1]//td[1]"),
+        get_text(By.XPATH, "//div[@class='history_list']//table[@class='main_table']//tbody//tr[1]//td[3]//span"))
 
 
 def lay_du_lieu():
     global t_player, t_gold, m_player, m_gold
-    click_button(
-        By.XPATH, '//div[@onclick="load_module(\'content\',\'game/activity/angel_devil\')"]')
+    click_button(By.XPATH, '//div[@onclick="load_module(\'content\',\'game/activity/angel_devil\')"]')
     (t_player, t_gold) = get_nguoi_vang()
     try:
         element = driver.find_element(By.CSS_SELECTOR, '.item.text_ad_devil')
         driver.execute_script("arguments[0].click();", element)
         (m_player, m_gold) = get_nguoi_vang()
+        print('lay du lieu thanh cong')
     except Exception as e:
         print(f"Error clicking element: {e}")
 
@@ -154,7 +146,7 @@ def run_retry(func, max_retries=10):
 
 
 def main_source():
-    a = True
+    a = False
     login_web()
     time.sleep(5)
     if (checklogin()):
@@ -172,4 +164,4 @@ def main_source():
     print(f"luu thanh cong {get_time()}")
 
 
-# main_source()
+main_source()
