@@ -92,7 +92,7 @@ def main():
 
 
 minute, second = 58, 30
-print(f"start {get_time()}")
+print(f"start {get_time()}", flush=True)
 check = isTest()
 if (check == True):
     while True:
@@ -106,7 +106,7 @@ if (check == True):
         if (cminute < minute and csecond < second):
             time.sleep(60)
         elif ((cminute == minute and csecond < second) or (cminute < minute and csecond > second)):
-            print(f"{get_time()}")
+            print(f"{get_time()}", flush=True)
             time.sleep(1)
         elif (csecond == second):
             from source import *

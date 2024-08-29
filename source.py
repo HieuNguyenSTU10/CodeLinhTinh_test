@@ -13,7 +13,7 @@ def login_web():
     driver = khoi_tao_chrome()
     web = 'https://cmangaog.com/user/game/dashboard'
     driver.get(web)
-    print('truy cap thanh cong')
+    print('truy cap thanh cong', flush=True)
 
 
 def refresh_web():
@@ -55,7 +55,7 @@ def login():
     search_box = driver.find_element(By.ID, 'login_password')
     search_box.send_keys('nickthu147')
     search_box.send_keys(Keys.RETURN)
-    print('dang nhap thanh cong')
+    print('dang nhap thanh cong', flush=True)
     time.sleep(3)
 
 
@@ -107,7 +107,7 @@ def lay_du_lieu():
         element = driver.find_element(By.CSS_SELECTOR, '.item.text_ad_devil')
         driver.execute_script("arguments[0].click();", element)
         (m_player, m_gold) = get_nguoi_vang()
-        print('lay du lieu thanh cong')
+        print('lay du lieu thanh cong', flush=True)
     except Exception as e:
         print(f"Error clicking element: {e}")
 
@@ -143,10 +143,10 @@ def run_retry(func, max_retries=10):
             break
         except Exception as e:
             retries += 1
-            print(f"Lỗi: {e}. Đang thử lại ({
-                  retries}/{max_retries})... {func.__name__}")
+            print(f"Lỗi:. Đang thử lại ({
+                  retries}/{max_retries})... {func.__name__}", flush=True)
             if retries == max_retries:
-                print("Thất bại sau nhiều lần thử.")
+                print("Thất bại sau nhiều lần thử.", flush=True)
             time.sleep(2)
 
 
@@ -166,6 +166,6 @@ def main_source():
     run_retry(ket_qua)
     save_data()
     driver.quit()  # Đóng trình duyệt khi hoàn tất
-    print(f"luu thanh cong {get_time()}")
+    print(f"luu thanh cong {get_time()}", flush=True)
 
 # main_source()
