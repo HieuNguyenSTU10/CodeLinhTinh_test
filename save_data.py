@@ -73,7 +73,7 @@ def append_to_excel(file_path, new_data, t_gold, m_gold):
 
     value_save = str + " - " + sosang
     worksheet2.cell(row=start_row, column=col, value=value_save)
-    print(col, value_save)
+    print(col, value_save, flush=True)
 
     # Lưu tệp Excel
     workbook.save(file_path)
