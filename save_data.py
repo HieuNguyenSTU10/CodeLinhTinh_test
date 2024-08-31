@@ -108,9 +108,9 @@ if __name__ == "__main__":
             if (cminute < minute and csecond < second):
                 time.sleep(60)
             elif ((cminute == minute and csecond < second) or (cminute < minute and csecond > second)):
-                print(f"{get_time()}", flush=True)
                 time.sleep(1)
             elif (csecond == second):
+                print(f"{get_time()}",flush = True)
                 main_save()
     else:
         main_save()

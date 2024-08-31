@@ -158,6 +158,7 @@ def main_source():
         run_retry(login)
     while (int(get_minute()) != 59 and int(get_second()) != 40 and a == True):
         time.sleep(1)
+    print(f"{get_time()}",flush = True)
     run_retry(lay_du_lieu)
     while (int(get_minute()) != 2 and a == True):
         time.sleep(5)
