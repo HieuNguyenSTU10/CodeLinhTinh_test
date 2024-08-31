@@ -125,6 +125,7 @@ def save_data():
 
 
 def checklogin():
+    time.sleep(5)
     try:
         button = driver.find_element(By.CLASS_NAME, 'text_button_login')
         if (button.text == 'Đăng nhập'):
@@ -156,9 +157,9 @@ def main_source():
     time.sleep(5)
     if (checklogin()):
         run_retry(login)
-    while (int(get_minute()) != 59 and int(get_second()) != 40 and a == True):
+    while ((int(get_minute()) != 59 or ((int(get_minute()) == 59 and int(get_second()) != 40))) and a == True):
         time.sleep(1)
-    print(f"{get_time()}",flush = True)
+    print(f"{get_time()}", flush=True)
     run_retry(lay_du_lieu)
     while (int(get_minute()) != 2 and a == True):
         time.sleep(5)

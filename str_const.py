@@ -6,7 +6,8 @@ test = True
 def khoi_tao_chrome():
     chrome_options = Options()
     # Đường dẫn đến thư mục chứa profile
-    # profile_path = f"./tk"
+    profile_path = f"~\\CodeLinhTinh\\tk"
+    chrome_options.add_argument(f"user-data-dir={profile_path}")
     # Thêm thư mục profile vào các tùy chọn
     chrome_options.add_argument("--headless=new")
     # Khởi chạy Chrome với profile
