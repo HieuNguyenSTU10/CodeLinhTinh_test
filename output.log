@@ -1,50 +1,95 @@
 nohup: ignoring input
-start 18:43:44
-18:58:30
+start 23:17:04
+23:58:30
 truy cap thanh cong
-18:58:40
-Timeout while trying to click //div[@onclick="load_module('content','game/activity/angel_devil')"]
-Timeout while trying to click //div[@onclick="load_module('content','game/activity/angel_devil')"]
-Timeout while trying to click //div[@onclick="load_module('content','game/activity/angel_devil')"]
-Timeout while trying to click //div[@onclick="load_module('content','game/activity/angel_devil')"]
-Timeout while trying to click //div[@onclick="load_module('content','game/activity/angel_devil')"]
-Element with xpath and //div[@class='angel top child_module']//div[@class='statics']//p//span[@class='player'] not found.
-Element with xpath and //div[@class='angel top child_module']//div[@class='statics']//p//span[@class='gold'] not found.
-Element with xpath and //div[@class='devil top child_module']//div[@class='statics']//p//span[@class='player'] not found.
-Element with xpath and //div[@class='devil top child_module']//div[@class='statics']//p//span[@class='gold'] not found.
-Error clicking element: Message: no such element: Unable to locate element: {"method":"css selector","selector":".item.text_ad_devil"}
-  (Session info: chrome=128.0.6613.84); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Stacktrace:
-#0 0x58fdf183e10a <unknown>
-#1 0x58fdf1523d20 <unknown>
-#2 0x58fdf15727d4 <unknown>
-#3 0x58fdf1572ac1 <unknown>
-#4 0x58fdf15b8214 <unknown>
-#5 0x58fdf159749d <unknown>
-#6 0x58fdf15b557e <unknown>
-#7 0x58fdf1597213 <unknown>
-#8 0x58fdf15652c5 <unknown>
-#9 0x58fdf15662ce <unknown>
-#10 0x58fdf1807a4f <unknown>
-#11 0x58fdf180bb36 <unknown>
-#12 0x58fdf17f54b7 <unknown>
-#13 0x58fdf180c2d1 <unknown>
-#14 0x58fdf17dc79e <unknown>
-#15 0x58fdf182d098 <unknown>
-#16 0x58fdf182d298 <unknown>
-#17 0x58fdf183cd31 <unknown>
-#18 0x7470a1aeeac3 <unknown>
-
-Lỗi:. Đang thử lại (1/10)... ket_qua
-Lỗi:. Đang thử lại (2/10)... ket_qua
-Lỗi:. Đang thử lại (3/10)... ket_qua
-Lỗi:. Đang thử lại (4/10)... ket_qua
-Lỗi:. Đang thử lại (5/10)... ket_qua
-Lỗi:. Đang thử lại (6/10)... ket_qua
-Lỗi:. Đang thử lại (7/10)... ket_qua
-Lỗi:. Đang thử lại (8/10)... ket_qua
-Lỗi:. Đang thử lại (9/10)... ket_qua
-Lỗi:. Đang thử lại (10/10)... ket_qua
-Thất bại sau nhiều lần thử.
-luu thanh cong 19:02:26
-21  - Nhỏ
+click thanh cong
+dang nhap thanh cong
+23:59:40
+click thanh cong
+lay du lieu thanh cong
+luu thanh cong 00:02:12
+2 Tiên - Lớn
+00:58:30
+truy cap thanh cong
+00:59:40
+click thanh cong
+lay du lieu thanh cong
+luu thanh cong 01:02:12
+3 Ma - Nhỏ
+01:58:30
+truy cap thanh cong
+01:59:40
+click thanh cong
+lay du lieu thanh cong
+luu thanh cong 02:02:13
+4 Ma - Lớn
+02:58:30
+truy cap thanh cong
+02:59:40
+click thanh cong
+lay du lieu thanh cong
+luu thanh cong 03:02:12
+5 Ma - Nhỏ
+03:58:30
+truy cap thanh cong
+03:59:40
+click thanh cong
+lay du lieu thanh cong
+luu thanh cong 04:02:12
+6 Tiên - Lớn
+04:58:30
+truy cap thanh cong
+04:59:40
+click thanh cong
+lay du lieu thanh cong
+luu thanh cong 05:02:13
+7 Tiên - Lớn
+05:58:30
+truy cap thanh cong
+05:59:40
+click thanh cong
+lay du lieu thanh cong
+luu thanh cong 06:02:12
+8 Tiên - Lớn
+06:58:30
+truy cap thanh cong
+06:59:40
+click thanh cong
+lay du lieu thanh cong
+luu thanh cong 07:02:12
+9 Tiên - Nhỏ
+07:58:30
+truy cap thanh cong
+07:59:40
+click thanh cong
+lay du lieu thanh cong
+luu thanh cong 08:02:13
+10 Ma - Lớn
+08:58:30
+truy cap thanh cong
+08:59:40
+click thanh cong
+lay du lieu thanh cong
+luu thanh cong 09:02:13
+11 Tiên - Nhỏ
+09:58:30
+truy cap thanh cong
+09:59:40
+click thanh cong
+lay du lieu thanh cong
+luu thanh cong 10:02:12
+12 Ma - Lớn
+10:58:30
+truy cap thanh cong
+10:59:40
+click thanh cong
+lay du lieu thanh cong
+luu thanh cong 11:02:12
+13 Tiên - Lớn
+11:58:30
+truy cap thanh cong
+11:59:40
+click thanh cong
+lay du lieu thanh cong
+luu thanh cong 12:02:12
+14 Ma - Lớn

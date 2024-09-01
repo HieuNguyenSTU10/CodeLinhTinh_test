@@ -1,0 +1,5 @@
+2024/09/01-10:58:31.705 6 Reusing MANIFEST /home/azureuser/CodeLinhTinh/~\CodeLinhTinh\tk/Default/Local Storage/leveldb/MANIFEST-000001
+2024/09/01-10:58:31.717 6 Recovering log #17
+2024/09/01-10:58:31.717 6 Level-0 table #19: started
+2024/09/01-10:58:31.724 6 Level-0 table #19: 25984 bytes OK
+2024/09/01-10:58:31.732 6 Delete type=0 #17
