@@ -143,12 +143,13 @@ def run_retry(func, max_retries=10):
             func()
             break
         except Exception as e:
+            driver.refresh()
             retries += 1
             print(f"Lỗi:. Đang thử lại ({
                   retries}/{max_retries})... {func.__name__}", flush=True)
             if retries == max_retries:
                 print("Thất bại sau nhiều lần thử.", flush=True)
-            time.sleep(2)
+            time.sleep(5)
 
 
 def main_source():
@@ -164,7 +165,7 @@ def main_source():
     while (int(get_minute()) != 2 and a == True):
         time.sleep(5)
     driver.refresh()
-    time.sleep(5)
+    time.sleep(10)
     run_retry(ket_qua)
     save_data()
     driver.quit()  # Đóng trình duyệt khi hoàn tất
