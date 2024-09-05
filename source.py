@@ -48,12 +48,12 @@ def click_button(by, xpath):
 def login():
     while click_button(By.CLASS_NAME, 'text_button_login') == 1:
         print("refeat")
-        refresh_web()
+        driver.refresh()
     time.sleep(3)
     search_box = driver.find_element(By.ID, 'login_username')
-    search_box.send_keys('nickthuu147')
+    search_box.send_keys('duykhag604')
     search_box = driver.find_element(By.ID, 'login_password')
-    search_box.send_keys('nickthu147')
+    search_box.send_keys('duykhag604@')
     search_box.send_keys(Keys.RETURN)
     print('dang nhap thanh cong', flush=True)
     time.sleep(3)
@@ -158,7 +158,7 @@ def main_source():
     time.sleep(5)
     if (checklogin()):
         run_retry(login)
-    while ((int(get_minute()) != 59 or ((int(get_minute()) == 59 and int(get_second()) != 40))) and a == True):
+    while (int(get_minute()) != 59 and a == True):
         time.sleep(1)
     print(f"{get_time()}", flush=True)
     run_retry(lay_du_lieu)

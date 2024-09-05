@@ -1,3 +1,14 @@
-2024/09/04-20:58:31.169 10d48 Reusing MANIFEST /home/azureuser/CodeLinhTinh/tk/Default/Site Characteristics Database/MANIFEST-000001
-2024/09/04-20:58:31.170 10d48 Recovering log #3
-2024/09/04-20:58:31.170 10d48 Reusing old log /home/azureuser/CodeLinhTinh/tk/Default/Site Characteristics Database/000003.log 
+2024/09/05-06:58:03.277 303c Recovering log #29
+2024/09/05-06:58:03.277 303c Level-0 table #31: started
+2024/09/05-06:58:03.317 303c Level-0 table #31: 162 bytes OK
+2024/09/05-06:58:03.331 303c Delete type=3 #27
+2024/09/05-06:58:03.331 303c Delete type=0 #29
+2024/09/05-06:58:03.331 303b Compacting 4@0 + 1@1 files
+2024/09/05-06:58:03.339 303b Generated table #33@0: 2 keys, 191 bytes
+2024/09/05-06:58:03.339 303b Compacted 4@0 + 1@1 files => 191 bytes
+2024/09/05-06:58:03.345 303b compacted to: files[ 0 1 0 0 0 0 0 ]
+2024/09/05-06:58:03.345 303b Delete type=2 #25
+2024/09/05-06:58:03.346 303b Delete type=2 #22
+2024/09/05-06:58:03.346 303b Delete type=2 #28
+2024/09/05-06:58:03.346 303b Delete type=2 #31
+2024/09/05-06:58:03.346 303b Delete type=2 #16

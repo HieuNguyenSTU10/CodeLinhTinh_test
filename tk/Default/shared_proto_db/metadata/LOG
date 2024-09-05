@@ -1,3 +1,5 @@
-2024/09/04-20:58:31.290 10d3e Reusing MANIFEST /home/azureuser/CodeLinhTinh/tk/Default/shared_proto_db/metadata/MANIFEST-000001
-2024/09/04-20:58:31.291 10d3e Recovering log #3
-2024/09/04-20:58:31.291 10d3e Reusing old log /home/azureuser/CodeLinhTinh/tk/Default/shared_proto_db/metadata/000003.log 
+2024/09/05-06:58:03.676 303c Recovering log #32
+2024/09/05-06:58:03.708 303c Level-0 table #34: started
+2024/09/05-06:58:03.713 303c Level-0 table #34: 124 bytes OK
+2024/09/05-06:58:03.731 303c Delete type=0 #32
+2024/09/05-06:58:03.731 303c Delete type=3 #30

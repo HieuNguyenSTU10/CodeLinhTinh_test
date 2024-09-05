@@ -1,3 +1,5 @@
-2024/09/04-19:58:31.055 4 Reusing MANIFEST /home/azureuser/CodeLinhTinh/tk/Default/Session Storage/MANIFEST-000001
-2024/09/04-19:58:31.057 4 Recovering log #16
-2024/09/04-19:58:31.062 4 Reusing old log /home/azureuser/CodeLinhTinh/tk/Default/Session Storage/000016.log 
+2024/09/05-04:58:06.106 4 Recovering log #28
+2024/09/05-04:58:06.107 4 Level-0 table #31: started
+2024/09/05-04:58:06.114 4 Level-0 table #31: 638 bytes OK
+2024/09/05-04:58:06.131 4 Delete type=3 #26
+2024/09/05-04:58:06.131 4 Delete type=0 #28

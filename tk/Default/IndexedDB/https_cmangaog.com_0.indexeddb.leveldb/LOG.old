@@ -1,3 +1,5 @@
-2024/09/04-19:58:32.478 10a2a Reusing MANIFEST /home/azureuser/CodeLinhTinh/tk/Default/IndexedDB/https_cmangaog.com_0.indexeddb.leveldb/MANIFEST-000001
-2024/09/04-19:58:32.478 10a2a Recovering log #3
-2024/09/04-19:58:32.482 10a2a Reusing old log /home/azureuser/CodeLinhTinh/tk/Default/IndexedDB/https_cmangaog.com_0.indexeddb.leveldb/000003.log 
+2024/09/05-06:02:53.059 255a Recovering log #58
+2024/09/05-06:02:53.207 255a Level-0 table #60: started
+2024/09/05-06:02:53.249 255a Level-0 table #60: 514 bytes OK
+2024/09/05-06:02:53.260 255a Delete type=3 #56
+2024/09/05-06:02:53.261 255a Delete type=0 #58

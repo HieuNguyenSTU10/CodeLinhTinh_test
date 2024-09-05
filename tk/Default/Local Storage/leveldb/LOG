@@ -1,6 +1,5 @@
-2024/09/04-20:58:31.182 4 Reusing MANIFEST /home/azureuser/CodeLinhTinh/tk/Default/Local Storage/leveldb/MANIFEST-000001
-2024/09/04-20:58:31.193 4 Recovering log #130
-2024/09/04-20:58:31.194 4 Reusing old log /home/azureuser/CodeLinhTinh/tk/Default/Local Storage/leveldb/000130.log 
-2024/09/04-21:02:07.895 6 Level-0 table #134: started
-2024/09/04-21:02:07.903 6 Level-0 table #134: 26788 bytes OK
-2024/09/04-21:02:07.914 6 Delete type=0 #130
+2024/09/05-06:58:03.224 4 Recovering log #32
+2024/09/05-06:58:03.245 4 Level-0 table #34: started
+2024/09/05-06:58:03.256 4 Level-0 table #34: 1173 bytes OK
+2024/09/05-06:58:03.271 4 Delete type=0 #32
+2024/09/05-06:58:03.272 4 Delete type=3 #30

@@ -1,3 +1,5 @@
-2024/09/04-19:58:30.946 10a2a Reusing MANIFEST /home/azureuser/CodeLinhTinh/tk/Default/Site Characteristics Database/MANIFEST-000001
-2024/09/04-19:58:30.946 10a2a Recovering log #3
-2024/09/04-19:58:30.946 10a2a Reusing old log /home/azureuser/CodeLinhTinh/tk/Default/Site Characteristics Database/000003.log 
+2024/09/05-04:58:03.094 255a Recovering log #26
+2024/09/05-04:58:03.094 255a Level-0 table #28: started
+2024/09/05-04:58:03.098 255a Level-0 table #28: 162 bytes OK
+2024/09/05-04:58:03.110 255a Delete type=0 #26
+2024/09/05-04:58:03.110 255a Delete type=3 #24

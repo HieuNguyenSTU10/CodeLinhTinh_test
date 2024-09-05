@@ -93,7 +93,7 @@ def main_save():
 
 
 if __name__ == "__main__":
-    minute, second = 58, 30
+    minute, second = 58, 00
     print(f"start {get_time()}", flush=True)
     check = isTest()
     if (check == True):
@@ -105,7 +105,7 @@ if __name__ == "__main__":
             # else:
             #     time.sleep(1)
 
-            if (cminute < minute and csecond < second):
+            if (cminute < minute and csecond <= second):
                 time.sleep(60)
             elif ((cminute == minute and csecond < second) or (cminute < minute and csecond > second)):
                 time.sleep(1)
@@ -114,3 +114,4 @@ if __name__ == "__main__":
                 main_save()
     else:
         main_save()
+
