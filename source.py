@@ -36,6 +36,7 @@ def click_button(by, xpath):
         except TimeoutException:
             print(f"Timeout while trying to click {xpath}")
             div += 1
+            driver.refresh()
             time.sleep(1)
         except Exception as e:
             print(f"Error occurred: {e}")
@@ -158,7 +159,7 @@ def main_source():
     time.sleep(5)
     if (checklogin()):
         run_retry(login)
-    while (int(get_minute()) != 59 and a == True):
+    while ((int(get_minute()) != 59 or ((int(get_minute()) == 59 and int(get_second()) != 30))) and a == True):
         time.sleep(1)
     print(f"{get_time()}", flush=True)
     run_retry(lay_du_lieu)
@@ -171,4 +172,4 @@ def main_source():
     driver.quit()  # Đóng trình duyệt khi hoàn tất
     print(f"luu thanh cong {get_time()}", flush=True)
 
-# main_source()
+main_source()

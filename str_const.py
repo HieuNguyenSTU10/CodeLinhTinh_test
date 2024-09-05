@@ -1,6 +1,6 @@
 from import_file import *
 
-test = True
+test = False
 
 
 def khoi_tao_chrome():
@@ -10,6 +10,9 @@ def khoi_tao_chrome():
     chrome_options.add_argument(f"user-data-dir={profile_path}")
     # Thêm thư mục profile vào các tùy chọn
     chrome_options.add_argument("--headless=new")
+    chrome_options.add_argument("--disable-gpu")  # Vô hiệu hóa GPU (có thể cần trên môi trường headless)
+    chrome_options.add_argument("--no-sandbox")  # Thường cần khi chạy trên môi trường không có GUI
+    chrome_options.add_argument("--disable-dev-shm-usage") 
     # Khởi chạy Chrome với profile
     driver = webdriver.Chrome(options=chrome_options)
     # driver.minimize_window()

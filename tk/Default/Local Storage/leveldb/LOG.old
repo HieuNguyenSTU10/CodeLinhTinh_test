@@ -1,5 +1,5 @@
-2024/09/05-04:58:03.001 4 Recovering log #28
-2024/09/05-04:58:03.045 4 Level-0 table #31: started
-2024/09/05-04:58:03.066 4 Level-0 table #31: 1128 bytes OK
-2024/09/05-04:58:03.086 4 Delete type=3 #26
-2024/09/05-04:58:03.086 4 Delete type=0 #28
+2024/09/05-16:58:03.172 6ca8 Recovering log #145
+2024/09/05-16:58:03.205 6ca8 Level-0 table #148: started
+2024/09/05-16:58:03.230 6ca8 Level-0 table #148: 970 bytes OK
+2024/09/05-16:58:03.246 6ca8 Delete type=3 #143
+2024/09/05-16:58:03.247 6ca8 Delete type=0 #145
