@@ -1,5 +1,14 @@
-2024/09/05-16:58:03.785 6c81 Recovering log #145
-2024/09/05-16:58:03.785 6c81 Level-0 table #148: started
-2024/09/05-16:58:03.792 6c81 Level-0 table #148: 124 bytes OK
-2024/09/05-16:58:03.819 6c81 Delete type=3 #143
-2024/09/05-16:58:03.819 6c81 Delete type=0 #145
+2024/09/05-19:58:02.870 75ca Recovering log #155
+2024/09/05-19:58:02.872 75ca Level-0 table #157: started
+2024/09/05-19:58:02.877 75ca Level-0 table #157: 124 bytes OK
+2024/09/05-19:58:02.895 75ca Delete type=0 #155
+2024/09/05-19:58:02.895 75ca Delete type=3 #153
+2024/09/05-19:58:02.895 75cb Compacting 4@0 + 1@1 files
+2024/09/05-19:58:02.912 75cb Generated table #159@0: 18 keys, 290 bytes
+2024/09/05-19:58:02.912 75cb Compacted 4@0 + 1@1 files => 290 bytes
+2024/09/05-19:58:02.931 75cb compacted to: files[ 0 1 0 0 0 0 0 ]
+2024/09/05-19:58:02.931 75cb Delete type=2 #154
+2024/09/05-19:58:02.931 75cb Delete type=2 #148
+2024/09/05-19:58:02.931 75cb Delete type=2 #146
+2024/09/05-19:58:02.931 75cb Delete type=2 #157
+2024/09/05-19:58:02.931 75cb Delete type=2 #151
