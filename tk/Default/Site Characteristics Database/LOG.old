@@ -1,5 +1,5 @@
-2024/09/06-12:58:01.941 a6ce Recovering log #208
-2024/09/06-12:58:01.941 a6ce Level-0 table #210: started
-2024/09/06-12:58:01.946 a6ce Level-0 table #210: 162 bytes OK
-2024/09/06-12:58:01.959 a6ce Delete type=3 #206
-2024/09/06-12:58:01.959 a6ce Delete type=0 #208
+2024/09/06-22:58:02.252 c152 Recovering log #240
+2024/09/06-22:58:02.252 c152 Level-0 table #243: started
+2024/09/06-22:58:02.262 c152 Level-0 table #243: 162 bytes OK
+2024/09/06-22:58:02.281 c152 Delete type=3 #238
+2024/09/06-22:58:02.281 c152 Delete type=0 #240
