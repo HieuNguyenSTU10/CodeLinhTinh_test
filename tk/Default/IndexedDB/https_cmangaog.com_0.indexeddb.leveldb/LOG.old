@@ -1,5 +1,5 @@
-2024/09/05-19:58:05.322 75ca Recovering log #191
-2024/09/05-19:58:05.327 75ca Level-0 table #193: started
-2024/09/05-19:58:05.332 75ca Level-0 table #193: 905 bytes OK
-2024/09/05-19:58:05.354 75ca Delete type=3 #189
-2024/09/05-19:58:05.354 75ca Delete type=0 #191
+2024/09/06-05:58:05.590 93f8 Recovering log #226
+2024/09/06-05:58:05.590 93f8 Level-0 table #229: started
+2024/09/06-05:58:05.600 93f8 Level-0 table #229: 902 bytes OK
+2024/09/06-05:58:05.611 93f8 Delete type=0 #226
+2024/09/06-05:58:05.611 93f8 Delete type=3 #224
