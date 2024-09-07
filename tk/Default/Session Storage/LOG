@@ -1,5 +1,5 @@
-2024/09/07-18:58:03.980 f69f Recovering log #308
-2024/09/07-18:58:03.981 f69f Level-0 table #310: started
-2024/09/07-18:58:03.985 f69f Level-0 table #310: 1580 bytes OK
-2024/09/07-18:58:04.001 f69f Delete type=3 #306
-2024/09/07-18:58:04.002 f69f Delete type=0 #308
+2024/09/08-01:58:04.275 10cd1 Recovering log #331
+2024/09/08-01:58:04.275 10cd1 Level-0 table #333: started
+2024/09/08-01:58:04.281 10cd1 Level-0 table #333: 1440 bytes OK
+2024/09/08-01:58:04.298 10cd1 Delete type=0 #331
+2024/09/08-01:58:04.298 10cd1 Delete type=3 #329
