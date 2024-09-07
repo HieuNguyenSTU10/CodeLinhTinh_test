@@ -1,5 +1,2 @@
-2024/09/08-00:58:03.137 10a9b Recovering log #327
-2024/09/08-00:58:03.144 10a9b Level-0 table #330: started
-2024/09/08-00:58:03.155 10a9b Level-0 table #330: 3450 bytes OK
-2024/09/08-00:58:03.174 10a9b Delete type=3 #325
-2024/09/08-00:58:03.174 10a9b Delete type=0 #327
+2024/09/08-02:26:50.169 4704 Creating DB F:\Game\FolderCode\CodeLinhTinh_test\tk\Default\Local Storage\leveldb since it was missing.
+2024/09/08-02:26:50.228 4704 Reusing MANIFEST F:\Game\FolderCode\CodeLinhTinh_test\tk\Default\Local Storage\leveldb/MANIFEST-000001

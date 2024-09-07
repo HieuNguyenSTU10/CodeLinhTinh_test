@@ -172,4 +172,5 @@ def main_source():
     driver.quit()  # Đóng trình duyệt khi hoàn tất
     print(f"luu thanh cong {get_time()}", flush=True)
 
-main_source()
+
+# main_source()

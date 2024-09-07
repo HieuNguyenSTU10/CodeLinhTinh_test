@@ -59,7 +59,7 @@ def append_to_excel(file_path, new_data, t_gold, m_gold):
     date = None
 
     # kiem tra ngay hien tai
-    if (start_row == 2 or value2 not in (None, '')):
+    if (start_row == 2 or get_date() != value1):
         start_row += 1
         date = get_date()
         worksheet2.cell(row=start_row, column=1, value=date)
@@ -110,8 +110,7 @@ if __name__ == "__main__":
             elif ((cminute == minute and csecond < second) or (cminute < minute and csecond > second)):
                 time.sleep(1)
             elif (csecond == second):
-                print(f"{get_time()}",flush = True)
+                print(f"{get_time()}", flush=True)
                 main_save()
     else:
         main_save()
-
