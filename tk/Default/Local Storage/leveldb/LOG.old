@@ -1,5 +1,5 @@
-2024/09/07-09:58:02.198 dfc2 Recovering log #279
-2024/09/07-09:58:02.220 dfc2 Level-0 table #281: started
-2024/09/07-09:58:02.241 dfc2 Level-0 table #281: 972 bytes OK
-2024/09/07-09:58:02.259 dfc2 Delete type=3 #277
-2024/09/07-09:58:02.259 dfc2 Delete type=0 #279
+2024/09/07-17:58:02.339 f469 Recovering log #305
+2024/09/07-17:58:02.353 f469 Level-0 table #307: started
+2024/09/07-17:58:02.370 f469 Level-0 table #307: 967 bytes OK
+2024/09/07-17:58:02.401 f469 Delete type=0 #305
+2024/09/07-17:58:02.401 f469 Delete type=3 #303

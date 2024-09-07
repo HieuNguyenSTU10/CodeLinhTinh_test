@@ -1,5 +1,5 @@
-2024/09/07-10:58:03.750 e1fa Recovering log #282
-2024/09/07-10:58:03.753 e1fa Level-0 table #284: started
-2024/09/07-10:58:03.779 e1fa Level-0 table #284: 124 bytes OK
-2024/09/07-10:58:03.795 e1fa Delete type=0 #282
-2024/09/07-10:58:03.796 e1fa Delete type=3 #280
+2024/09/07-18:58:02.837 f678 Recovering log #308
+2024/09/07-18:58:02.838 f678 Level-0 table #310: started
+2024/09/07-18:58:02.845 f678 Level-0 table #310: 124 bytes OK
+2024/09/07-18:58:02.870 f678 Delete type=3 #306
+2024/09/07-18:58:02.870 f678 Delete type=0 #308

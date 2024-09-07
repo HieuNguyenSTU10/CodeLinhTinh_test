@@ -1,14 +1,14 @@
-2024/09/07-09:58:02.277 dfa1 Recovering log #276
-2024/09/07-09:58:02.278 dfa1 Level-0 table #278: started
-2024/09/07-09:58:02.282 dfa1 Level-0 table #278: 162 bytes OK
-2024/09/07-09:58:02.292 dfa1 Delete type=3 #274
-2024/09/07-09:58:02.292 dfa1 Delete type=0 #276
-2024/09/07-09:58:02.293 dfa0 Compacting 4@0 + 1@1 files
-2024/09/07-09:58:02.298 dfa0 Generated table #280@0: 2 keys, 191 bytes
-2024/09/07-09:58:02.298 dfa0 Compacted 4@0 + 1@1 files => 191 bytes
-2024/09/07-09:58:02.304 dfa0 compacted to: files[ 0 1 0 0 0 0 0 ]
-2024/09/07-09:58:02.304 dfa0 Delete type=2 #267
-2024/09/07-09:58:02.304 dfa0 Delete type=2 #272
-2024/09/07-09:58:02.304 dfa0 Delete type=2 #278
-2024/09/07-09:58:02.304 dfa0 Delete type=2 #269
-2024/09/07-09:58:02.304 dfa0 Delete type=2 #275
+2024/09/07-17:58:02.435 f441 Recovering log #302
+2024/09/07-17:58:02.435 f441 Level-0 table #304: started
+2024/09/07-17:58:02.440 f441 Level-0 table #304: 162 bytes OK
+2024/09/07-17:58:02.451 f441 Delete type=3 #300
+2024/09/07-17:58:02.451 f441 Delete type=0 #302
+2024/09/07-17:58:02.451 f442 Compacting 4@0 + 1@1 files
+2024/09/07-17:58:02.455 f442 Generated table #306@0: 2 keys, 191 bytes
+2024/09/07-17:58:02.455 f442 Compacted 4@0 + 1@1 files => 191 bytes
+2024/09/07-17:58:02.461 f442 compacted to: files[ 0 1 0 0 0 0 0 ]
+2024/09/07-17:58:02.462 f442 Delete type=2 #304
+2024/09/07-17:58:02.462 f442 Delete type=2 #301
+2024/09/07-17:58:02.462 f442 Delete type=2 #295
+2024/09/07-17:58:02.462 f442 Delete type=2 #293
+2024/09/07-17:58:02.462 f442 Delete type=2 #298
