@@ -1,5 +1,5 @@
-2024/09/06-22:58:02.845 c17e Recovering log #243
-2024/09/06-22:58:02.845 c17e Level-0 table #245: started
-2024/09/06-22:58:02.849 c17e Level-0 table #245: 2631 bytes OK
-2024/09/06-22:58:02.878 c17e Delete type=3 #241
-2024/09/06-22:58:02.878 c17e Delete type=0 #243
+2024/09/07-09:58:02.840 dfa0 Recovering log #279
+2024/09/07-09:58:02.840 dfa0 Level-0 table #281: started
+2024/09/07-09:58:02.844 dfa0 Level-0 table #281: 2630 bytes OK
+2024/09/07-09:58:02.856 dfa0 Delete type=3 #277
+2024/09/07-09:58:02.856 dfa0 Delete type=0 #279

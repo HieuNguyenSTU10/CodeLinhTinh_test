@@ -1,5 +1,5 @@
-2024/09/06-22:58:02.123 c173 Recovering log #243
-2024/09/06-22:58:02.179 c173 Level-0 table #245: started
-2024/09/06-22:58:02.200 c173 Level-0 table #245: 973 bytes OK
-2024/09/06-22:58:02.225 c173 Delete type=3 #241
-2024/09/06-22:58:02.225 c173 Delete type=0 #243
+2024/09/07-09:58:02.198 dfc2 Recovering log #279
+2024/09/07-09:58:02.220 dfc2 Level-0 table #281: started
+2024/09/07-09:58:02.241 dfc2 Level-0 table #281: 972 bytes OK
+2024/09/07-09:58:02.259 dfc2 Delete type=3 #277
+2024/09/07-09:58:02.259 dfc2 Delete type=0 #279
