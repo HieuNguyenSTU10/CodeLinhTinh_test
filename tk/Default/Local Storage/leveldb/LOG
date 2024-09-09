@@ -1,3 +1,14 @@
-2024/09/08-02:34:15.940 4e48 Reusing MANIFEST F:\Game\FolderCode\CodeLinhTinh_test\tk\Default\Local Storage\leveldb/MANIFEST-000001
-2024/09/08-02:34:15.951 4e48 Recovering log #3
-2024/09/08-02:34:15.953 4e48 Reusing old log F:\Game\FolderCode\CodeLinhTinh_test\tk\Default\Local Storage\leveldb/000003.log 
+2024/09/09-09:58:02.143 16754 Recovering log #103
+2024/09/09-09:58:02.148 16754 Level-0 table #105: started
+2024/09/09-09:58:02.157 16754 Level-0 table #105: 999 bytes OK
+2024/09/09-09:58:02.179 16754 Delete type=3 #101
+2024/09/09-09:58:02.179 16754 Delete type=0 #103
+2024/09/09-09:58:02.183 16756 Compacting 4@0 + 1@1 files
+2024/09/09-09:58:02.219 16756 Generated table #107@0: 10 keys, 576 bytes
+2024/09/09-09:58:02.219 16756 Compacted 4@0 + 1@1 files => 576 bytes
+2024/09/09-09:58:02.226 16756 compacted to: files[ 0 1 0 0 0 0 0 ]
+2024/09/09-09:58:02.228 16756 Delete type=2 #99
+2024/09/09-09:58:02.228 16756 Delete type=2 #105
+2024/09/09-09:58:02.228 16756 Delete type=2 #94
+2024/09/09-09:58:02.228 16756 Delete type=2 #102
+2024/09/09-09:58:02.228 16756 Delete type=2 #96

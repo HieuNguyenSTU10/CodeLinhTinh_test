@@ -1,3 +1,5 @@
-2024/09/08-02:34:16.483 4e48 Reusing MANIFEST F:\Game\FolderCode\CodeLinhTinh_test\tk\Default\Session Storage/MANIFEST-000001
-2024/09/08-02:34:16.485 4e48 Recovering log #3
-2024/09/08-02:34:16.488 4e48 Reusing old log F:\Game\FolderCode\CodeLinhTinh_test\tk\Default\Session Storage/000003.log 
+2024/09/09-09:58:04.124 16754 Recovering log #104
+2024/09/09-09:58:04.125 16754 Level-0 table #107: started
+2024/09/09-09:58:04.130 16754 Level-0 table #107: 1577 bytes OK
+2024/09/09-09:58:04.149 16754 Delete type=3 #102
+2024/09/09-09:58:04.149 16754 Delete type=0 #104

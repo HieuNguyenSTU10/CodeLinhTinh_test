@@ -1,3 +1,5 @@
-2024/09/08-02:34:15.560 4490 Reusing MANIFEST F:\Game\FolderCode\CodeLinhTinh_test\tk\Default\Site Characteristics Database/MANIFEST-000001
-2024/09/08-02:34:15.563 4490 Recovering log #335
-2024/09/08-02:34:15.563 4490 Reusing old log F:\Game\FolderCode\CodeLinhTinh_test\tk\Default\Site Characteristics Database/000335.log 
+2024/09/09-09:58:02.245 1672f Recovering log #437
+2024/09/09-09:58:02.246 1672f Level-0 table #439: started
+2024/09/09-09:58:02.250 1672f Level-0 table #439: 162 bytes OK
+2024/09/09-09:58:02.260 1672f Delete type=0 #437
+2024/09/09-09:58:02.260 1672f Delete type=3 #435
