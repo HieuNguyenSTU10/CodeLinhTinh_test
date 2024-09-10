@@ -1,5 +1,5 @@
-2024/09/10-15:58:03.113 1bc84 Recovering log #201
-2024/09/10-15:58:03.152 1bc84 Level-0 table #203: started
-2024/09/10-15:58:03.164 1bc84 Level-0 table #203: 1639 bytes OK
-2024/09/10-15:58:03.193 1bc84 Delete type=3 #199
-2024/09/10-15:58:03.194 1bc84 Delete type=0 #201
+2024/09/10-22:58:03.178 1cd35 Recovering log #223
+2024/09/10-22:58:03.192 1cd35 Level-0 table #226: started
+2024/09/10-22:58:03.213 1cd35 Level-0 table #226: 1950 bytes OK
+2024/09/10-22:58:03.231 1cd35 Delete type=3 #221
+2024/09/10-22:58:03.232 1cd35 Delete type=0 #223

@@ -1,5 +1,5 @@
-2024/09/10-14:58:06.125 1b763 Recovering log #604
-2024/09/10-14:58:06.126 1b763 Level-0 table #607: started
-2024/09/10-14:58:06.133 1b763 Level-0 table #607: 919 bytes OK
-2024/09/10-14:58:06.153 1b763 Delete type=3 #602
-2024/09/10-14:58:06.153 1b763 Delete type=0 #604
+2024/09/10-21:58:06.452 1cacb Recovering log #630
+2024/09/10-21:58:06.452 1cacb Level-0 table #633: started
+2024/09/10-21:58:06.459 1cacb Level-0 table #633: 913 bytes OK
+2024/09/10-21:58:06.481 1cacb Delete type=3 #628
+2024/09/10-21:58:06.481 1cacb Delete type=0 #630
