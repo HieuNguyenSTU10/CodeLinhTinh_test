@@ -1,5 +1,5 @@
-2024/09/10-11:58:03.162 1afb4 Recovering log #188
-2024/09/10-11:58:03.190 1afb4 Level-0 table #190: started
-2024/09/10-11:58:03.214 1afb4 Level-0 table #190: 1062 bytes OK
-2024/09/10-11:58:03.225 1afb4 Delete type=0 #188
-2024/09/10-11:58:03.225 1afb4 Delete type=3 #186
+2024/09/10-14:58:02.873 1b789 Recovering log #197
+2024/09/10-14:58:02.881 1b789 Level-0 table #200: started
+2024/09/10-14:58:02.894 1b789 Level-0 table #200: 1132 bytes OK
+2024/09/10-14:58:02.910 1b789 Delete type=3 #195
+2024/09/10-14:58:02.910 1b789 Delete type=0 #197
