@@ -1,5 +1,5 @@
-2024/09/11-10:58:07.768 1edb3 Recovering log #673
-2024/09/11-10:58:07.768 1edb3 Level-0 table #675: started
-2024/09/11-10:58:07.779 1edb3 Level-0 table #675: 910 bytes OK
-2024/09/11-10:58:07.803 1edb3 Delete type=0 #673
-2024/09/11-10:58:07.803 1edb3 Delete type=3 #671
+2024/09/11-17:58:06.254 1fefb Recovering log #695
+2024/09/11-17:58:06.255 1fefb Level-0 table #698: started
+2024/09/11-17:58:06.264 1fefb Level-0 table #698: 906 bytes OK
+2024/09/11-17:58:06.281 1fefb Delete type=3 #693
+2024/09/11-17:58:06.281 1fefb Delete type=0 #695

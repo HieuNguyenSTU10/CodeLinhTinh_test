@@ -1,5 +1,5 @@
-2024/09/11-09:58:03.719 1eac6 Recovering log #594
-2024/09/11-09:58:03.720 1eac6 Level-0 table #596: started
-2024/09/11-09:58:03.727 1eac6 Level-0 table #596: 124 bytes OK
-2024/09/11-09:58:03.741 1eac6 Delete type=3 #592
-2024/09/11-09:58:03.741 1eac6 Delete type=0 #594
+2024/09/11-16:58:03.479 1fcbe Recovering log #617
+2024/09/11-16:58:03.482 1fcbe Level-0 table #619: started
+2024/09/11-16:58:03.489 1fcbe Level-0 table #619: 124 bytes OK
+2024/09/11-16:58:03.503 1fcbe Delete type=0 #617
+2024/09/11-16:58:03.503 1fcbe Delete type=3 #615
