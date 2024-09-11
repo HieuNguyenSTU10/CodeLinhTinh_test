@@ -1,5 +1,5 @@
-2024/09/11-17:58:02.707 1fefc Recovering log #619
-2024/09/11-17:58:02.708 1fefc Level-0 table #621: started
-2024/09/11-17:58:02.711 1fefc Level-0 table #621: 162 bytes OK
-2024/09/11-17:58:02.723 1fefc Delete type=0 #619
-2024/09/11-17:58:02.723 1fefc Delete type=3 #617
+2024/09/11-19:58:03.134 20413 Recovering log #625
+2024/09/11-19:58:03.135 20413 Level-0 table #628: started
+2024/09/11-19:58:03.140 20413 Level-0 table #628: 162 bytes OK
+2024/09/11-19:58:03.159 20413 Delete type=0 #625
+2024/09/11-19:58:03.159 20413 Delete type=3 #623

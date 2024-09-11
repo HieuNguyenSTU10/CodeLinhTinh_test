@@ -1,5 +1,14 @@
-2024/09/11-16:58:03.479 1fcbe Recovering log #617
-2024/09/11-16:58:03.482 1fcbe Level-0 table #619: started
-2024/09/11-16:58:03.489 1fcbe Level-0 table #619: 124 bytes OK
-2024/09/11-16:58:03.503 1fcbe Delete type=0 #617
-2024/09/11-16:58:03.503 1fcbe Delete type=3 #615
+2024/09/11-18:58:03.175 201c7 Recovering log #623
+2024/09/11-18:58:03.178 201c7 Level-0 table #625: started
+2024/09/11-18:58:03.195 201c7 Level-0 table #625: 124 bytes OK
+2024/09/11-18:58:03.207 201c7 Delete type=0 #623
+2024/09/11-18:58:03.208 201c7 Delete type=3 #621
+2024/09/11-18:58:03.209 201c7 Compacting 4@0 + 1@1 files
+2024/09/11-18:58:03.215 201c7 Generated table #627@0: 18 keys, 290 bytes
+2024/09/11-18:58:03.215 201c7 Compacted 4@0 + 1@1 files => 290 bytes
+2024/09/11-18:58:03.224 201c7 compacted to: files[ 0 1 0 0 0 0 0 ]
+2024/09/11-18:58:03.224 201c7 Delete type=2 #619
+2024/09/11-18:58:03.224 201c7 Delete type=2 #625
+2024/09/11-18:58:03.224 201c7 Delete type=2 #616
+2024/09/11-18:58:03.224 201c7 Delete type=2 #622
+2024/09/11-18:58:03.224 201c7 Delete type=2 #614
