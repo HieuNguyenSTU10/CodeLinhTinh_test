@@ -1,14 +1,14 @@
-2024/09/10-22:58:03.891 1cd15 Recovering log #558
-2024/09/10-22:58:03.891 1cd15 Level-0 table #560: started
-2024/09/10-22:58:03.898 1cd15 Level-0 table #560: 124 bytes OK
-2024/09/10-22:58:03.919 1cd15 Delete type=0 #558
-2024/09/10-22:58:03.919 1cd15 Delete type=3 #556
-2024/09/10-22:58:03.919 1cd15 Compacting 4@0 + 1@1 files
-2024/09/10-22:58:03.926 1cd15 Generated table #562@0: 18 keys, 290 bytes
-2024/09/10-22:58:03.926 1cd15 Compacted 4@0 + 1@1 files => 290 bytes
-2024/09/10-22:58:03.937 1cd15 compacted to: files[ 0 1 0 0 0 0 0 ]
-2024/09/10-22:58:03.937 1cd15 Delete type=2 #560
-2024/09/10-22:58:03.937 1cd15 Delete type=2 #554
-2024/09/10-22:58:03.937 1cd15 Delete type=2 #549
-2024/09/10-22:58:03.937 1cd15 Delete type=2 #551
-2024/09/10-22:58:03.937 1cd15 Delete type=2 #557
+2024/09/11-10:58:03.808 1edb3 Recovering log #597
+2024/09/11-10:58:03.811 1edb3 Level-0 table #599: started
+2024/09/11-10:58:03.826 1edb3 Level-0 table #599: 124 bytes OK
+2024/09/11-10:58:03.856 1edb3 Delete type=3 #595
+2024/09/11-10:58:03.856 1edb3 Delete type=0 #597
+2024/09/11-10:58:03.856 1edb2 Compacting 4@0 + 1@1 files
+2024/09/11-10:58:03.863 1edb2 Generated table #601@0: 18 keys, 290 bytes
+2024/09/11-10:58:03.863 1edb2 Compacted 4@0 + 1@1 files => 290 bytes
+2024/09/11-10:58:03.880 1edb2 compacted to: files[ 0 1 0 0 0 0 0 ]
+2024/09/11-10:58:03.880 1edb2 Delete type=2 #588
+2024/09/11-10:58:03.880 1edb2 Delete type=2 #590
+2024/09/11-10:58:03.880 1edb2 Delete type=2 #596
+2024/09/11-10:58:03.880 1edb2 Delete type=2 #599
+2024/09/11-10:58:03.880 1edb2 Delete type=2 #593
