@@ -1,5 +1,5 @@
-2024/09/13-19:58:04.139 2a555 Recovering log #449
-2024/09/13-19:58:04.141 2a555 Level-0 table #451: started
-2024/09/13-19:58:04.146 2a555 Level-0 table #451: 1502 bytes OK
-2024/09/13-19:58:04.163 2a555 Delete type=3 #447
-2024/09/13-19:58:04.163 2a555 Delete type=0 #449
+2024/09/14-18:58:05.410 2ea8c Recovering log #524
+2024/09/14-18:58:05.411 2ea8c Level-0 table #526: started
+2024/09/14-18:58:05.417 2ea8c Level-0 table #526: 1562 bytes OK
+2024/09/14-18:58:05.433 2ea8c Delete type=3 #522
+2024/09/14-18:58:05.433 2ea8c Delete type=0 #524

@@ -1,14 +1,5 @@
-2024/09/13-18:58:06.764 2a0dd Recovering log #168
-2024/09/13-18:58:06.765 2a0dd Level-0 table #170: started
-2024/09/13-18:58:06.771 2a0dd Level-0 table #170: 907 bytes OK
-2024/09/13-18:58:06.795 2a0dd Delete type=3 #166
-2024/09/13-18:58:06.795 2a0dd Delete type=0 #168
-2024/09/13-18:58:06.799 2a0de Compacting 4@0 + 1@1 files
-2024/09/13-18:58:06.806 2a0de Generated table #172@0: 17 keys, 531 bytes
-2024/09/13-18:58:06.806 2a0de Compacted 4@0 + 1@1 files => 531 bytes
-2024/09/13-18:58:06.811 2a0de compacted to: files[ 0 1 0 0 0 0 0 ]
-2024/09/13-18:58:06.812 2a0de Delete type=2 #159
-2024/09/13-18:58:06.812 2a0de Delete type=2 #161
-2024/09/13-18:58:06.812 2a0de Delete type=2 #167
-2024/09/13-18:58:06.812 2a0de Delete type=2 #164
-2024/09/13-18:58:06.812 2a0de Delete type=2 #170
+2024/09/14-17:58:06.630 2e77c Recovering log #256
+2024/09/14-17:58:06.635 2e77c Level-0 table #258: started
+2024/09/14-17:58:06.648 2e77c Level-0 table #258: 905 bytes OK
+2024/09/14-17:58:06.660 2e77c Delete type=3 #254
+2024/09/14-17:58:06.660 2e77c Delete type=0 #256
