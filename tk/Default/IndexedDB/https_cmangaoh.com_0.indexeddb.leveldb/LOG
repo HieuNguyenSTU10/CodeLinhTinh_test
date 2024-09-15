@@ -1,5 +1,5 @@
-2024/09/14-23:02:05.755 2fb24 Recovering log #279
-2024/09/14-23:02:05.768 2fb24 Level-0 table #281: started
-2024/09/14-23:02:05.788 2fb24 Level-0 table #281: 705 bytes OK
-2024/09/14-23:02:05.804 2fb24 Delete type=3 #277
-2024/09/14-23:02:05.804 2fb24 Delete type=0 #279
+2024/09/15-20:58:06.832 33c8d Recovering log #366
+2024/09/15-20:58:06.834 33c8d Level-0 table #369: started
+2024/09/15-20:58:06.844 33c8d Level-0 table #369: 908 bytes OK
+2024/09/15-20:58:06.859 33c8d Delete type=3 #364
+2024/09/15-20:58:06.859 33c8d Delete type=0 #366

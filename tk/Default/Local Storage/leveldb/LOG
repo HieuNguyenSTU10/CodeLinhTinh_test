@@ -1,5 +1,5 @@
-2024/09/14-22:58:02.681 2fb45 Recovering log #535
-2024/09/14-22:58:02.692 2fb45 Level-0 table #538: started
-2024/09/14-22:58:02.703 2fb45 Level-0 table #538: 5094 bytes OK
-2024/09/14-22:58:02.726 2fb45 Delete type=3 #533
-2024/09/14-22:58:02.726 2fb45 Delete type=0 #535
+2024/09/15-20:58:02.711 33cad Recovering log #607
+2024/09/15-20:58:02.737 33cad Level-0 table #609: started
+2024/09/15-20:58:02.769 33cad Level-0 table #609: 5731 bytes OK
+2024/09/15-20:58:02.784 33cad Delete type=3 #605
+2024/09/15-20:58:02.784 33cad Delete type=0 #607
