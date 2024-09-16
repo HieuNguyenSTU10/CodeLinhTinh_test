@@ -1,5 +1,5 @@
-2024/09/16-19:58:02.453 3894a Recovering log #682
-2024/09/16-19:58:02.468 3894a Level-0 table #684: started
-2024/09/16-19:58:02.479 3894a Level-0 table #684: 6260 bytes OK
-2024/09/16-19:58:02.514 3894a Delete type=0 #682
-2024/09/16-19:58:02.514 3894a Delete type=3 #680
+2024/09/16-20:58:03.965 38cfa Recovering log #685
+2024/09/16-20:58:03.976 38cfa Level-0 table #687: started
+2024/09/16-20:58:03.988 38cfa Level-0 table #687: 6268 bytes OK
+2024/09/16-20:58:04.038 38cfa Delete type=0 #685
+2024/09/16-20:58:04.038 38cfa Delete type=3 #683
