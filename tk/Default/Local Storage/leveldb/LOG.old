@@ -1,5 +1,5 @@
-2024/09/15-20:58:02.711 33cad Recovering log #607
-2024/09/15-20:58:02.737 33cad Level-0 table #609: started
-2024/09/15-20:58:02.769 33cad Level-0 table #609: 5731 bytes OK
-2024/09/15-20:58:02.784 33cad Delete type=3 #605
-2024/09/15-20:58:02.784 33cad Delete type=0 #607
+2024/09/16-14:58:02.654 37a6e Recovering log #665
+2024/09/16-14:58:02.678 37a6e Level-0 table #668: started
+2024/09/16-14:58:02.699 37a6e Level-0 table #668: 5728 bytes OK
+2024/09/16-14:58:02.721 37a6e Delete type=3 #663
+2024/09/16-14:58:02.721 37a6e Delete type=0 #665
