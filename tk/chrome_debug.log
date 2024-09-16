@@ -1,14 +1,14 @@
-[228502:228502:0916/155801.577460:WARNING:chrome_main_delegate.cc(742)] This is Chrome version 128.0.6613.119 (not a warning)
-[228502:228516:0916/155801.957377:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.DBus.ListActivatableNames: object_path= /org/freedesktop/DBus: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.1692" (uid=1000 pid=228502 comm="/snap/chromium/2943/usr/lib/chromium-browser/chrom" label="snap.chromium.chromedriver (enforce)") interface="org.freedesktop.DBus" member="ListActivatableNames" error name="(unset)" requested_reply="0" destination="org.freedesktop.DBus" (bus)
-[228502:228502:0916/155802.239797:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
-[228531:228531:0916/155802.242297:WARNING:sandbox_linux.cc(430)] InitializeSandbox() called with multiple threads in process gpu-process.
-[228502:228516:0916/155802.324123:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.DBus.ListActivatableNames: object_path= /org/freedesktop/DBus: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.1694" (uid=1000 pid=228502 comm="/snap/chromium/2943/usr/lib/chromium-browser/chrom" label="snap.chromium.chromedriver (enforce)") interface="org.freedesktop.DBus" member="ListActivatableNames" error name="(unset)" requested_reply="0" destination="org.freedesktop.DBus" (bus)
-[228502:228587:0916/155803.074602:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.DBus.Properties.Get: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
-[228502:228587:0916/155803.074621:WARNING:property.cc(149)] DaemonVersion: GetAndBlock: failed.
-[228502:228587:0916/155803.079831:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.UPower.GetDisplayDevice: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
-[228502:228587:0916/155803.080936:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.UPower.EnumerateDevices: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
-[228502:228502:0916/155804.199772:INFO:CONSOLE(7)] "The key "max-scale" is not recognized and ignored.", source: https://cmangaoh.com/user/game/dashboard (7)
-[228502:228502:0916/155805.305512:INFO:CONSOLE(1)] "
+[229969:229969:0916/175801.836518:WARNING:chrome_main_delegate.cc(742)] This is Chrome version 128.0.6613.119 (not a warning)
+[229969:229983:0916/175802.185017:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.DBus.ListActivatableNames: object_path= /org/freedesktop/DBus: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.1708" (uid=1000 pid=229969 comm="/snap/chromium/2943/usr/lib/chromium-browser/chrom" label="snap.chromium.chromedriver (enforce)") interface="org.freedesktop.DBus" member="ListActivatableNames" error name="(unset)" requested_reply="0" destination="org.freedesktop.DBus" (bus)
+[229998:229998:0916/175802.446584:WARNING:sandbox_linux.cc(430)] InitializeSandbox() called with multiple threads in process gpu-process.
+[229969:229969:0916/175802.451073:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
+[229969:229983:0916/175802.572706:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.DBus.ListActivatableNames: object_path= /org/freedesktop/DBus: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.1710" (uid=1000 pid=229969 comm="/snap/chromium/2943/usr/lib/chromium-browser/chrom" label="snap.chromium.chromedriver (enforce)") interface="org.freedesktop.DBus" member="ListActivatableNames" error name="(unset)" requested_reply="0" destination="org.freedesktop.DBus" (bus)
+[229969:230056:0916/175803.305823:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.DBus.Properties.Get: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[229969:230056:0916/175803.305846:WARNING:property.cc(149)] DaemonVersion: GetAndBlock: failed.
+[229969:230056:0916/175803.307574:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.UPower.GetDisplayDevice: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[229969:230056:0916/175803.307789:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.UPower.EnumerateDevices: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[229969:229969:0916/175804.497542:INFO:CONSOLE(7)] "The key "max-scale" is not recognized and ignored.", source: https://cmangaoh.com/user/game/dashboard (7)
+[229969:229969:0916/175805.644082:INFO:CONSOLE(1)] "
 It looks like you're using the development build of the Firebase JS SDK.
 When deploying Firebase apps to production, it is advisable to only import
 the individual SDK components you intend to use.
@@ -18,8 +18,9 @@ For the CDN builds, these are available in the following manner
 
 https://www.gstatic.com/firebasejs/5.0.0/firebase-<PACKAGE>.js
 ", source: https://www.gstatic.com/firebasejs/8.8.1/firebase.js (1)
-[228502:228502:0916/155807.238873:INFO:CONSOLE(7)] "The key "max-scale" is not recognized and ignored.", source: https://cmangaoh.com/user/game/dashboard (7)
-[228502:228502:0916/155807.338027:INFO:CONSOLE(1)] "
+[229969:229969:0916/175806.531657:INFO:CONSOLE(472)] "Uncaught ReferenceError: token_chat is not defined", source:  (472)
+[229969:229969:0916/175807.181643:INFO:CONSOLE(7)] "The key "max-scale" is not recognized and ignored.", source: https://cmangaoh.com/user/game/dashboard (7)
+[229969:229969:0916/175807.231198:INFO:CONSOLE(1)] "
 It looks like you're using the development build of the Firebase JS SDK.
 When deploying Firebase apps to production, it is advisable to only import
 the individual SDK components you intend to use.
@@ -29,8 +30,8 @@ For the CDN builds, these are available in the following manner
 
 https://www.gstatic.com/firebasejs/5.0.0/firebase-<PACKAGE>.js
 ", source: https://www.gstatic.com/firebasejs/8.8.1/firebase.js (1)
-[228502:228502:0916/160203.446835:INFO:CONSOLE(7)] "The key "max-scale" is not recognized and ignored.", source: https://cmangaoh.com/user/game/dashboard (7)
-[228502:228502:0916/160204.705216:INFO:CONSOLE(1)] "
+[229969:229969:0916/180202.948787:INFO:CONSOLE(7)] "The key "max-scale" is not recognized and ignored.", source: https://cmangaoh.com/user/game/dashboard (7)
+[229969:229969:0916/180203.873116:INFO:CONSOLE(1)] "
 It looks like you're using the development build of the Firebase JS SDK.
 When deploying Firebase apps to production, it is advisable to only import
 the individual SDK components you intend to use.
@@ -40,6 +41,6 @@ For the CDN builds, these are available in the following manner
 
 https://www.gstatic.com/firebasejs/5.0.0/firebase-<PACKAGE>.js
 ", source: https://www.gstatic.com/firebasejs/8.8.1/firebase.js (1)
-[228532:228535:0916/160219.945625:WARNING:sqlite_persistent_store_backend_base.cc(198)] Failed to post task from FlushAndNotifyInBackground@net/extras/sqlite/sqlite_persistent_store_backend_base.cc:248 to client_task_runner_.
-[228532:228535:0916/160220.027065:WARNING:sqlite_persistent_store_backend_base.cc(198)] Failed to post task from FlushAndNotifyInBackground@net/extras/sqlite/sqlite_persistent_store_backend_base.cc:248 to client_task_runner_.
-[228502:228502:0916/160220.120643:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
+[230000:230018:0916/180219.110721:WARNING:sqlite_persistent_store_backend_base.cc(198)] Failed to post task from FlushAndNotifyInBackground@net/extras/sqlite/sqlite_persistent_store_backend_base.cc:248 to client_task_runner_.
+[230000:230018:0916/180219.192258:WARNING:sqlite_persistent_store_backend_base.cc(198)] Failed to post task from FlushAndNotifyInBackground@net/extras/sqlite/sqlite_persistent_store_backend_base.cc:248 to client_task_runner_.
+[229969:229969:0916/180219.322547:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
