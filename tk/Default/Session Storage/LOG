@@ -1,14 +1,14 @@
-2024/09/16-20:58:05.982 38cfa Recovering log #686
-2024/09/16-20:58:05.982 38cfa Level-0 table #688: started
-2024/09/16-20:58:05.989 38cfa Level-0 table #688: 1577 bytes OK
-2024/09/16-20:58:06.003 38cfa Delete type=0 #686
-2024/09/16-20:58:06.003 38cfa Delete type=3 #684
-2024/09/16-20:58:06.006 38cfa Compacting 4@0 + 1@1 files
-2024/09/16-20:58:06.026 38cfa Generated table #690@0: 1692 keys, 59179 bytes
-2024/09/16-20:58:06.028 38cfa Compacted 4@0 + 1@1 files => 59179 bytes
-2024/09/16-20:58:06.037 38cfa compacted to: files[ 0 1 0 0 0 0 0 ]
-2024/09/16-20:58:06.038 38cfa Delete type=2 #677
-2024/09/16-20:58:06.038 38cfa Delete type=2 #682
-2024/09/16-20:58:06.038 38cfa Delete type=2 #688
-2024/09/16-20:58:06.038 38cfa Delete type=2 #679
-2024/09/16-20:58:06.038 38cfa Delete type=2 #685
+2024/09/17-20:58:04.335 3fc85 Recovering log #764
+2024/09/17-20:58:04.336 3fc85 Level-0 table #766: started
+2024/09/17-20:58:04.342 3fc85 Level-0 table #766: 1595 bytes OK
+2024/09/17-20:58:04.357 3fc85 Delete type=0 #764
+2024/09/17-20:58:04.357 3fc85 Delete type=3 #762
+2024/09/17-20:58:04.358 3fc87 Compacting 4@0 + 1@1 files
+2024/09/17-20:58:04.384 3fc87 Generated table #768@0: 1884 keys, 65672 bytes
+2024/09/17-20:58:04.384 3fc87 Compacted 4@0 + 1@1 files => 65672 bytes
+2024/09/17-20:58:04.396 3fc87 compacted to: files[ 0 1 0 0 0 0 0 ]
+2024/09/17-20:58:04.397 3fc87 Delete type=2 #763
+2024/09/17-20:58:04.397 3fc87 Delete type=2 #755
+2024/09/17-20:58:04.397 3fc87 Delete type=2 #757
+2024/09/17-20:58:04.397 3fc87 Delete type=2 #766
+2024/09/17-20:58:04.397 3fc87 Delete type=2 #760
