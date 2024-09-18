@@ -1,5 +1,5 @@
-2024/09/17-20:58:05.966 3fc65 Recovering log #561
-2024/09/17-20:58:05.967 3fc65 Level-0 table #564: started
-2024/09/17-20:58:05.973 3fc65 Level-0 table #564: 921 bytes OK
-2024/09/17-20:58:05.991 3fc65 Delete type=0 #561
-2024/09/17-20:58:05.991 3fc65 Delete type=3 #559
+2024/09/18-16:58:06.282 444da Recovering log #633
+2024/09/18-16:58:06.283 444da Level-0 table #635: started
+2024/09/18-16:58:06.288 444da Level-0 table #635: 512 bytes OK
+2024/09/18-16:58:06.307 444da Delete type=0 #633
+2024/09/18-16:58:06.307 444da Delete type=3 #631
