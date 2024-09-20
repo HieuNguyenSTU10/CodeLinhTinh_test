@@ -1,5 +1,5 @@
-2024/09/20-14:58:04.250 519fb Recovering log #1288
-2024/09/20-14:58:04.250 519fb Level-0 table #1291: started
-2024/09/20-14:58:04.255 519fb Level-0 table #1291: 162 bytes OK
-2024/09/20-14:58:04.266 519fb Delete type=3 #1286
-2024/09/20-14:58:04.266 519fb Delete type=0 #1288
+2024/09/20-19:58:02.985 52fea Recovering log #1305
+2024/09/20-19:58:02.986 52fea Level-0 table #1307: started
+2024/09/20-19:58:02.991 52fea Level-0 table #1307: 162 bytes OK
+2024/09/20-19:58:03.004 52fea Delete type=0 #1305
+2024/09/20-19:58:03.004 52fea Delete type=3 #1303
