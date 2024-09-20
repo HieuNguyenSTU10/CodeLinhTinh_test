@@ -1,5 +1,5 @@
-2024/09/18-16:58:02.926 444da Recovering log #1162
-2024/09/18-16:58:02.926 444da Level-0 table #1164: started
-2024/09/18-16:58:02.930 444da Level-0 table #1164: 162 bytes OK
-2024/09/18-16:58:02.941 444da Delete type=3 #1160
-2024/09/18-16:58:02.941 444da Delete type=0 #1162
+2024/09/20-15:58:03.324 51d7d Recovering log #1292
+2024/09/20-15:58:03.325 51d7d Level-0 table #1294: started
+2024/09/20-15:58:03.332 51d7d Level-0 table #1294: 162 bytes OK
+2024/09/20-15:58:03.356 51d7d Delete type=3 #1290
+2024/09/20-15:58:03.356 51d7d Delete type=0 #1292

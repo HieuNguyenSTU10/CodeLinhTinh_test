@@ -1,46 +1,14 @@
-[279758:279758:0918/165802.040086:WARNING:chrome_main_delegate.cc(742)] This is Chrome version 128.0.6613.119 (not a warning)
-[279758:279773:0918/165802.438890:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.DBus.ListActivatableNames: object_path= /org/freedesktop/DBus: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.2084" (uid=1000 pid=279758 comm="/snap/chromium/2943/usr/lib/chromium-browser/chrom" label="snap.chromium.chromedriver (enforce)") interface="org.freedesktop.DBus" member="ListActivatableNames" error name="(unset)" requested_reply="0" destination="org.freedesktop.DBus" (bus)
-[279786:279786:0918/165802.658853:WARNING:sandbox_linux.cc(430)] InitializeSandbox() called with multiple threads in process gpu-process.
-[279758:279758:0918/165802.696372:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
-[279758:279773:0918/165802.843021:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.DBus.ListActivatableNames: object_path= /org/freedesktop/DBus: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.2086" (uid=1000 pid=279758 comm="/snap/chromium/2943/usr/lib/chromium-browser/chrom" label="snap.chromium.chromedriver (enforce)") interface="org.freedesktop.DBus" member="ListActivatableNames" error name="(unset)" requested_reply="0" destination="org.freedesktop.DBus" (bus)
-[279758:279844:0918/165803.717768:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.DBus.Properties.Get: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
-[279758:279844:0918/165803.717792:WARNING:property.cc(149)] DaemonVersion: GetAndBlock: failed.
-[279758:279844:0918/165803.718058:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.UPower.GetDisplayDevice: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
-[279758:279844:0918/165803.718349:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.UPower.EnumerateDevices: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
-[279758:279758:0918/165805.115955:INFO:CONSOLE(7)] "The key "max-scale" is not recognized and ignored.", source: https://cmangaoh.com/user/game/dashboard (7)
-[279758:279758:0918/165805.866358:INFO:CONSOLE(1)] "
-It looks like you're using the development build of the Firebase JS SDK.
-When deploying Firebase apps to production, it is advisable to only import
-the individual SDK components you intend to use.
-
-For the CDN builds, these are available in the following manner
-(replace <PACKAGE> with the name of a component - i.e. auth, database, etc):
-
-https://www.gstatic.com/firebasejs/5.0.0/firebase-<PACKAGE>.js
-", source: https://www.gstatic.com/firebasejs/8.8.1/firebase.js (1)
-[279758:279758:0918/165806.828212:INFO:CONSOLE(472)] "Uncaught ReferenceError: token_chat is not defined", source:  (472)
-[279758:279758:0918/165807.396475:INFO:CONSOLE(7)] "The key "max-scale" is not recognized and ignored.", source: https://cmangaoh.com/user/game/dashboard (7)
-[279758:279758:0918/165807.502826:INFO:CONSOLE(1)] "
-It looks like you're using the development build of the Firebase JS SDK.
-When deploying Firebase apps to production, it is advisable to only import
-the individual SDK components you intend to use.
-
-For the CDN builds, these are available in the following manner
-(replace <PACKAGE> with the name of a component - i.e. auth, database, etc):
-
-https://www.gstatic.com/firebasejs/5.0.0/firebase-<PACKAGE>.js
-", source: https://www.gstatic.com/firebasejs/8.8.1/firebase.js (1)
-[279758:279758:0918/170202.828672:INFO:CONSOLE(7)] "The key "max-scale" is not recognized and ignored.", source: https://cmangaoh.com/user/game/dashboard (7)
-[279758:279758:0918/170203.471181:INFO:CONSOLE(1)] "
-It looks like you're using the development build of the Firebase JS SDK.
-When deploying Firebase apps to production, it is advisable to only import
-the individual SDK components you intend to use.
-
-For the CDN builds, these are available in the following manner
-(replace <PACKAGE> with the name of a component - i.e. auth, database, etc):
-
-https://www.gstatic.com/firebasejs/5.0.0/firebase-<PACKAGE>.js
-", source: https://www.gstatic.com/firebasejs/8.8.1/firebase.js (1)
-[279788:279802:0918/170218.774215:WARNING:sqlite_persistent_store_backend_base.cc(198)] Failed to post task from FlushAndNotifyInBackground@net/extras/sqlite/sqlite_persistent_store_backend_base.cc:248 to client_task_runner_.
-[279788:279802:0918/170218.876179:WARNING:sqlite_persistent_store_backend_base.cc(198)] Failed to post task from FlushAndNotifyInBackground@net/extras/sqlite/sqlite_persistent_store_backend_base.cc:248 to client_task_runner_.
-[279758:279758:0918/170218.960320:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
+[335217:335217:0920/155801.888520:WARNING:chrome_main_delegate.cc(742)] This is Chrome version 128.0.6613.137 (not a warning)
+[335217:335232:0920/155802.525502:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.DBus.ListActivatableNames: object_path= /org/freedesktop/DBus: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.2404" (uid=1000 pid=335217 comm="/snap/chromium/2950/usr/lib/chromium-browser/chrom" label="snap.chromium.chromedriver (enforce)") interface="org.freedesktop.DBus" member="ListActivatableNames" error name="(unset)" requested_reply="0" destination="org.freedesktop.DBus" (bus)
+[335246:335246:0920/155802.879606:WARNING:sandbox_linux.cc(430)] InitializeSandbox() called with multiple threads in process gpu-process.
+[335217:335217:0920/155802.976451:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
+[335217:335232:0920/155803.116736:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.DBus.ListActivatableNames: object_path= /org/freedesktop/DBus: org.freedesktop.DBus.Error.AccessDenied: An AppArmor policy prevents this sender from sending this message to this recipient; type="method_call", sender=":1.2406" (uid=1000 pid=335217 comm="/snap/chromium/2950/usr/lib/chromium-browser/chrom" label="snap.chromium.chromedriver (enforce)") interface="org.freedesktop.DBus" member="ListActivatableNames" error name="(unset)" requested_reply="0" destination="org.freedesktop.DBus" (bus)
+[335217:335303:0920/155804.856759:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.DBus.Properties.Get: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[335217:335303:0920/155804.856783:WARNING:property.cc(149)] DaemonVersion: GetAndBlock: failed.
+[335217:335303:0920/155804.863725:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.UPower.GetDisplayDevice: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[335217:335303:0920/155804.863930:ERROR:object_proxy.cc(576)] Failed to call method: org.freedesktop.UPower.EnumerateDevices: object_path= /org/freedesktop/UPower: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files
+[335217:335217:0920/155807.062927:INFO:CONSOLE(7)] "The key "max-scale" is not recognized and ignored.", source: https://cmangaoh.com/user/game/dashboard (7)
+[335217:335217:0920/155838.164719:INFO:CONSOLE(7)] "The key "max-scale" is not recognized and ignored.", source: https://cmangaoh.com/user/game/dashboard (7)
+[335217:335217:0920/160206.506386:INFO:CONSOLE(7)] "The key "max-scale" is not recognized and ignored.", source: https://cmangaoh.com/user/game/dashboard (7)
+[335217:335217:0920/160255.242486:INFO:CONSOLE(0)] "Uncaught (in promise) Timeout (z)", source: https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LeIoOEZAAAAADzQmvajZoe2v_IzH5UBZCQGRnJO&co=aHR0cHM6Ly9jbWFuZ2FvaC5jb206NDQz&hl=en&v=EGbODne6buzpTnWrrBprcfAY&size=invisible&cb=euwph2nu0bhi (0)
+[335217:335217:0920/160349.363973:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
